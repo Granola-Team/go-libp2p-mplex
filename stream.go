@@ -3,8 +3,8 @@ package peerstream_multiplex
 import (
 	"time"
 
+	mp "github.com/Granola-Team/go-mplex"
 	"github.com/libp2p/go-libp2p-core/mux"
-	mp "github.com/libp2p/go-mplex"
 )
 
 // stream implements mux.MuxedStream over mplex.Stream.
