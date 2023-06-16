@@ -3,8 +3,8 @@ package peerstream_multiplex
 import (
 	"context"
 
+	mp "github.com/Granola-Team/go-mplex"
 	"github.com/libp2p/go-libp2p-core/mux"
-	mp "github.com/libp2p/go-mplex"
 )
 
 type conn mp.Multiplex

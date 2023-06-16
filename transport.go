@@ -5,7 +5,7 @@ import (
 
 	"github.com/libp2p/go-libp2p-core/mux"
 
-	mp "github.com/libp2p/go-mplex"
+	mp "github.com/Granola-Team/go-mplex"
 )
 
 // DefaultTransport has default settings for Transport
